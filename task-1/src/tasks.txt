@@ -1,0 +1,28 @@
+===================== TASK ONE ===================== 
+
+Create an app that allows the user to filter data 
+using a search bar.
+
+1.  You must complete the task in 15 minutes
+2.  The search function must simulate a 'LIKE' SQL 
+    query where only results containing the value
+    of the search bar are returned
+3.  The app must use local state i.e. this.state and 
+    this.setState()
+4.  Your html markup must use semantic elements 
+    (Use elements other than <div></div>)
+
+====================================================
+
+
+===================== TASK TWO ===================== 
+
+Update your app to use redux to manage app state.
+
+1.  You must complete the task in 10 minutes
+2.  You must not use local state i.e. Your code must
+    not have this.state and this.setState()
+3.  Your redux setup must either use actions or action
+    creators and reducers to change redux state
+
+====================================================
