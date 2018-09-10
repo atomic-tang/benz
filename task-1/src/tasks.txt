@@ -14,6 +14,7 @@ using a search bar.
 
 ====================================================
 
+   GIT ADD ., GIT COMMIT -M "TASK ONE", GIT PUSH
 
 ===================== TASK TWO ===================== 
 
@@ -27,6 +28,7 @@ Update your app to use redux to manage app state.
 
 ====================================================
 
+   GIT ADD ., GIT COMMIT -M "TASK TWO", GIT PUSH
 
 ==================== TASK THREE ==================== 
 
@@ -47,3 +49,5 @@ into the app's state.
     this.state = { data: [ data and asyncData ] }
 
 ====================================================
+
+   GIT ADD ., GIT COMMIT -M "TASK THREE", GIT PUSH
