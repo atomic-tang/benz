@@ -10,6 +10,16 @@ const data = [
   { name: "Nexus 7" }
 ]
 
+// for 3rd task
+const asyncData = [
+  { name: "Apple" },
+  { name: "Banana" },
+  { name: "Pineapple" },
+  { name: "Mango" },
+  { name: "Peach" },
+  { name: "Melon" }
+]
+
 class App extends Component {
   render() {
     return (

@@ -3,7 +3,7 @@
 Create an app that allows the user to filter data 
 using a search bar.
 
-1.  You must complete the task in 15 minutes
+1.  You must complete the task in 10 minutes
 2.  The search function must simulate a 'LIKE' SQL 
     query where only results containing the value
     of the search bar are returned
@@ -24,5 +24,26 @@ Update your app to use redux to manage app state.
     not have this.state and this.setState()
 3.  Your redux setup must either use actions or action
     creators and reducers to change redux state
+
+====================================================
+
+
+==================== TASK THREE ==================== 
+
+Refactor your code to initialize the app's local 
+state to the array of the data constant (const data).
+
+e.g. this.state = { data: [ data ] }
+
+Then create a promise to asynchronously load the 
+array from the asyncData constant (const async Data)
+into the app's state.
+
+1.  You must complete the task in 10 minutes
+2.  The unfiltered list must contain results from
+    both data sets (const data and const async Data)
+3.  The promise must be resolved 3 seconds after the
+    app's first render i.e. after 3 seconds, 
+    this.state = { data: [ data and asyncData ] }
 
 ====================================================
