@@ -10,7 +10,7 @@ const data = [
   { name: "Nexus 7" }
 ]
 
-// for task three
+// for task two
 const asyncData = [
   { name: "Apple" },
   { name: "Banana" },

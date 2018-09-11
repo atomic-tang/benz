@@ -16,21 +16,7 @@ using a search bar.
 
    GIT ADD ., GIT COMMIT -M "TASK ONE", GIT PUSH
 
-===================== TASK TWO ===================== 
-
-Update your app to use redux to manage app state.
-
-1.  You must complete the task in 10 minutes
-2.  You must not use local state i.e. Your code must
-    not have this.state and this.setState()
-3.  Your redux setup must either use actions or action
-    creators and reducers to change redux state
-
-====================================================
-
-   GIT ADD ., GIT COMMIT -M "TASK TWO", GIT PUSH
-
-==================== TASK THREE ==================== 
+==================== TASK TWO ==================== 
 
 Refactor your code to initialize the app's local 
 state to the array of the data constant (const data).
@@ -50,4 +36,4 @@ into the app's state.
 
 ====================================================
 
-   GIT ADD ., GIT COMMIT -M "TASK THREE", GIT PUSH
+   GIT ADD ., GIT COMMIT -M "TASK TWO", GIT PUSH
