@@ -1,39 +1,22 @@
-===================== TASK ONE ===================== 
+======================= TASK ======================= 
 
 Create an app that allows the user to filter data 
-using a search bar.
+using a search bar. Then create a promise to 
+asynchronously load the array from the asyncData 
+constant (const async Data) into the app's state.
 
-1.  You must complete the task in 10 minutes
+1.  You must complete the task in 15 minutes
 2.  The search function must simulate a 'LIKE' SQL 
     query where only results containing the value
     of the search bar are returned
-3.  The app must use local state i.e. this.state and 
-    this.setState()
-4.  Your html markup must use semantic elements 
+3.  The promise must be resolved 3 seconds after the
+    app's first render i.e. after 3 seconds, 
+    this.state = { data: [ data and asyncData ] }
+4.  The unfiltered list should contain results from
+    both data sets (const data and const async Data)
+5.  Your html markup must use semantic elements
     (Use elements other than <div></div>)
 
 ====================================================
 
-   GIT ADD ., GIT COMMIT -M "TASK ONE", GIT PUSH
-
-==================== TASK TWO ==================== 
-
-Refactor your code to initialize the app's local 
-state to the array of the data constant (const data).
-
-e.g. this.state = { data: [ data ] }
-
-Then create a promise to asynchronously load the 
-array from the asyncData constant (const async Data)
-into the app's state.
-
-1.  You must complete the task in 10 minutes
-2.  The unfiltered list must contain results from
-    both data sets (const data and const async Data)
-3.  The promise must be resolved 3 seconds after the
-    app's first render i.e. after 3 seconds, 
-    this.state = { data: [ data and asyncData ] }
-
-====================================================
-
-   GIT ADD ., GIT COMMIT -M "TASK TWO", GIT PUSH
+   GIT ADD ., GIT COMMIT -M "TASK COMPLETE", GIT PUSH

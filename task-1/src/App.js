@@ -1,16 +1,6 @@
 import React, { Component } from 'react';
 
-// data set to be filtered
-const data = [
-  { name: "Football" },
-  { name: "Baseball" },
-  { name: "Basketball" },
-  { name: "iPod Touch" },
-  { name: "iPhone 5" },
-  { name: "Nexus 7" }
-]
-
-// for task two
+// data to be asynchronously loaded
 const asyncData = [
   { name: "Apple" },
   { name: "Banana" },
@@ -21,6 +11,19 @@ const asyncData = [
 ]
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      data: [
+        { name: "Football" },
+        { name: "Baseball" },
+        { name: "Basketball" },
+        { name: "iPod Touch" },
+        { name: "iPhone 5" },
+        { name: "Nexus 7" }
+      ]
+    }
+  }
   render() {
     return (
       <div className="App">
