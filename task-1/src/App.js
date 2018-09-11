@@ -25,8 +25,12 @@ class App extends Component {
     }
   }
   render() {
+    const listItems = this.state.data.map((d) => <li key={d.name}>{d.name}</li>);
+
     return (
       <div className="App">
+        <input type="text" />
+        {listItems }
       </div>
     );
   }
